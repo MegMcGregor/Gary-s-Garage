@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>Garys_Garage</RootNamespace>
+    <RootNamespace>Garage</RootNamespace>
   </PropertyGroup>
 
 </Project>

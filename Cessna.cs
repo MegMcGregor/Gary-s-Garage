@@ -1,10 +1,15 @@
+using System;
+
 namespace Garage
 {
-    public class Cessna  // Propellor light aircraft
+    public class Cessna : Vehicle
     {
         public double FuelCapacity { get; set; }
-        public string MainColor { get; set; }
-        public int MaximumOccupancy { get; set; }
+
+        public override void Drive()
+        {
+            Console.WriteLine("Zoooooom!");
+        }
 
         public void RefuelTank()
         {
