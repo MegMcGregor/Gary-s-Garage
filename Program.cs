@@ -28,9 +28,17 @@ namespace Garage
                 FuelCapacity = 3.2,
             };
 
+            Ram Truck = new Ram()
+            {
+                MainColor = "black",
+                MaximumOccupancy = 4,
+                FuelCapacity = 10.5,
+            };
+
             fxs.Drive();
             modelS.Drive();
             mx410.Drive();
+            Truck.Drive();
         }
     }
 }

@@ -9,7 +9,7 @@ namespace Garage
 
         public override void Drive()
         {
-            Console.WriteLine(V);
+            Console.WriteLine($"The truck says {V}");
         }
         public void RefuelTank()
         {

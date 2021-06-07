@@ -1,11 +1,13 @@
+using System;
 namespace Garage
 {
     public class Zero : Vehicle  // Electric motorcycle
     {
         public double BatteryKWh { get; set; }
-        public void ChargeBattery()
+
+        public override void Drive()
         {
-            // method definition omitted
+            Console.WriteLine($"The {MainColor} zero zips past.");
         }
     }
 }
